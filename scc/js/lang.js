@@ -32,7 +32,34 @@ $(document).ready(function () {
         translate(tnum);
 
         $('.current_lang .lang-txt').text(lang);
+
         $('.current_lang img').attr('src', img);
+
+        /* ---- */
+
+        if ($(this).attr('data-value') == 'VN') {
+            document.getElementsByName('tbxFullName')[0].placeholder = 'Tên của bạn là gì?';
+            document.getElementsByName('tbxPhone')[0].placeholder = 'Số điện thoại liên lạc của bạn là gì?';
+            document.getElementsByName('tbxEmail')[0].placeholder = 'Email liên hệ của bạn là gì?';
+            document.getElementsByName('tbxContent')[0].placeholder = 'Dịch vụ mà bạn mong muốn là gì?';
+            document.getElementsByName('btnSubmit')[0].value = 'Gửi';
+            document.getElementsByName('nameTestCall')[0].placeholder = 'Họ và tên';
+            document.getElementsByName('phoneTestCall')[0].placeholder = 'Số điện thoại';
+            document.getElementsByName('secutityCode')[0].placeholder = 'Mã bảo mật';
+
+        }
+        else if ($(this).attr('data-value') == 'ENG') {
+            document.getElementsByName('tbxFullName')[0].placeholder = 'What is your name?';
+            document.getElementsByName('tbxPhone')[0].placeholder = 'What is your contact phone number?';
+            document.getElementsByName('tbxEmail')[0].placeholder = 'What is your contact email?';
+            document.getElementsByName('tbxContent')[0].placeholder = 'What service do you want?';
+            document.getElementsByName('btnSubmit')[0].value = 'Send';
+            document.getElementsByName('nameTestCall')[0].placeholder = 'Name';
+            document.getElementsByName('phoneTestCall')[0].placeholder = 'Phone number';
+            document.getElementsByName('secutityCode')[0].placeholder = 'Security code';
+
+        }
+        /* ---- */
     });
 });
 
@@ -94,6 +121,8 @@ function translate(tnum) {
     $('.company-address-location').text(trans[54][tnum]);
     $('.company-connect').text(trans[55][tnum]);
     $('.other-service-packs').text(trans[56][tnum]);
+    $('.pricing-target-personal').text(trans[57][tnum]);
+    $('.pricing-target-team').text(trans[58][tnum]);
 
 
 }
@@ -332,6 +361,14 @@ var trans = [
     {
         ENG: 'Other Service Packs',
         VN: 'Các gói dịch vụ khác',
+    },
+    {
+        ENG: 'Personal Call Center Transfer',
+        VN: 'Chuyển giao Call Center Cá nhân',
+    },
+    {
+        ENG: 'Team Call Center Transfer',
+        VN: 'Chuyển giao Call Center Đội nhóm',
     },
 
 

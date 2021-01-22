@@ -211,9 +211,6 @@
 		</div>
 		<div id="introduce"></div>
 		<div class="strategy-section">
-			<div class="strategy-section-bg-graphics-section">
-				<img src="scc/images/strategy-section-bg.png">
-			</div>
 			<div class="container strategy-container">
 				<div class="col-lg-3 col-md-6 col-xs-8 offset-xs-2 strategy-card-section">
 					<div class="strategy-card">
@@ -280,16 +277,16 @@
 					<div data-wow-delay="0.2s" class="bgHomeCenter wow fadeInDown animated">
 						<div class="formTestCall">
 							<div class="row">
-								<input type="text" id="tbxHoTen" placeholder="Họ tên" class="input-demo" />
+								<input type="text" id="tbxHoTen" name="nameTestCall" placeholder="Họ và tên" class="input-demo" />
 							</div>
 							<div class="row">
-								<input type="text" id="tbxSoDienThoai" placeholder="Số điện thoại" class="input-demo" />
+								<input type="text" id="tbxSoDienThoai" name="phoneTestCall" placeholder="Số điện thoại" class="input-demo" />
 							</div>
 							<div class="row security-code" style="justify-content: center;">
 								<img src="ImageWordVerification.ashx_-1641742469.jpg" id="imgTestCallWV" alt="Mã bảo mật" />
 							</div>
 							<div class="row">
-								<input type="text" id="tbxMaBaoMat" placeholder="Mã bảo mật" class="input-demo" />
+								<input type="text" id="tbxMaBaoMat" name="securityCode" placeholder="Mã bảo mật" class="input-demo" />
 							</div>
 							<div class="row" style="justify-content: center;">
 								<a href="javascript:;" id="btnTestAutoCall" class="btnTest">Bắt đầu demo</a>
@@ -342,6 +339,7 @@
 
 					<div class="col-lg-6 col-md-6 col-xs-6 pricing-card-section">
 						<div class="pricing-card featured">
+							<p class="pricing-target-personal">Chuyển giao Call Center Cá nhân</p>
 							<p class="pricing-rate">2.500.000</p>
 							<p class="pricing-period">VNĐ</p>
 							<p class="pricing-text personal-use">Lựa chọn hợp lý cho cá nhân sử dụng</p>
@@ -364,6 +362,7 @@
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-6 pricing-card-section">
 						<div class="pricing-card featured">
+							<p class="pricing-target-team">Chuyển giao Call Center Đội nhóm</p>
 							<p class="pricing-rate1">5.000.000</p>
 							<p class="pricing-period">VNĐ</p>
 							<p class="pricing-text team-use">Lựa chọn hợp lý cho đội nhóm sử dụng</p>
@@ -409,7 +408,7 @@
 									</div>
 									<div class="col-75">
 										<input name="tbxFullName" type="text" id="tbxFullName" required="required"
-											data-error="Mời bạn nhập tên..." placeholder="Tên của bạn là gì...">
+											data-error="Mời bạn nhập tên..." placeholder="Tên của bạn là gì?">
 
 									</div>
 								</div>
@@ -420,7 +419,7 @@
 									<div class="col-75">
 										<input name="tbxPhone" type="text" id="tbxPhone" required="required"
 											data-error="Mời bạn nhập số điện thoại..."
-											placeholder="Số điện thoại liên lạc của bạn là gì...">
+											placeholder="Số điện thoại liên lạc của bạn là gì?">
 										<div class="help-block with-errors "></div>
 									</div>
 								</div>
@@ -430,7 +429,7 @@
 									</div>
 									<div class="col-75">
 										<input name="tbxEmail" type="text" id="tbxEmail"
-											placeholder="Email liên hệ của bạn là gì...">
+											placeholder="Email liên hệ của bạn là gì?">
 									</div>
 								</div>
 								<div class="row">
@@ -458,7 +457,7 @@
 									</div>
 									<div class="col-75">
 										<textarea name="tbxContent" id="tbxContent"
-											placeholder="Gói dịch vụ mà bạn mong muốn là gì..."
+											placeholder="Dịch vụ mà bạn mong muốn là gì?"
 											style="height:200px"></textarea>
 									</div>
 								</div>
@@ -475,7 +474,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 contact-header-img">
-					<img src="scc/images/contact-header-img.png">
+					<img src="scc/images/contact-header.png">
 				</div>
 			</div>
 		</div>
@@ -791,6 +790,7 @@ $(".nav-product").click(function(){
 
 });
 	</script>
+
 	<!-- Design & Develop by Nguyen Le The Sinh -->
 </body>
 

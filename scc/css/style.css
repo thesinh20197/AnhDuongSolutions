@@ -252,7 +252,7 @@ button:focus {
     position: relative;
 }
 
-.strategy-section-bg-graphics-section {
+/* .strategy-section-bg-graphics-section {
     position: absolute;
     width: 22%;
     right: -5%;
@@ -261,7 +261,7 @@ button:focus {
 
 .strategy-section-bg-graphics-section img {
     width: 100%
-}
+} */
 
 .strategy-container {
     position: relative;
@@ -486,30 +486,16 @@ button:focus {
     border: 7px dashed var(--blue-color);
 }
 
-.featured .pricing-rate:before {
-    content: "Chuyển giao call center Cá nhân";
+.pricing-target-personal, .pricing-target-team {
     display: block;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     margin: 0 auto 15px;
     border-radius: 100px;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--white-color);
     background-color: var(--blue-color);
-    padding: 10px 15px
-}
-
-.featured .pricing-rate1:before {
-    content: "Chuyển giao call center Đội nhóm";
-    display: block;
-    font-size: 12px;
-    font-weight: 600;
-    margin: 0 auto 15px;
-    border-radius: 100px;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: var(--blue-color);
-    padding: 10px 15px
+    padding: 10px 15px;
 }
 
 .pricing-period {
@@ -1449,7 +1435,8 @@ input[type=submit]:hover {
 }
 
 .formTestCall input {
-    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
 }
 
 .formTestCall .btnTest {
