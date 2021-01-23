@@ -123,6 +123,9 @@ function translate(tnum) {
     $('.other-service-packs').text(trans[56][tnum]);
     $('.pricing-target-personal').text(trans[57][tnum]);
     $('.pricing-target-team').text(trans[58][tnum]);
+    $('.title-start').text(trans[59][tnum]);
+    $('.title-end').text(trans[60][tnum]);
+    $('.slider-content').text(trans[61][tnum]);
 
 
 }
@@ -370,7 +373,17 @@ var trans = [
         ENG: 'Team Call Center Transfer',
         VN: 'Chuyển giao Call Center Đội nhóm',
     },
-
-
+    {
+        ENG: 'Marketing solutions for',
+        VN: 'Giải pháp Marketing cho',
+    },
+    {
+        ENG: 'Enterprise & Personal',
+        VN: 'doanh nghiệp & cá nhân',
+    },
+    {
+        ENG: 'We are a pioneer in providing solutions that change the way businesses and outstanding individuals communicate with customers. In current business operations, the need to communicate with a large number of customers is essential for marketing purposes.',
+        VN: 'Chúng tôi là công ty tiên phong lĩnh vực cung cấp giải pháp thay đổi cách thức mà doanh nghiệp và cá nhân kiệt xuất giao tiếp với khách hàng. Trong các hoạt động kinh doanh hiện tại, nhu cầu về giao tiếp với một lượng lớn các khách hàng là cực kì cần thiết nhằm các mục đích tiếp thị.',
+    }
 
 ];

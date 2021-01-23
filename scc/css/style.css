@@ -81,6 +81,32 @@ button:focus {
     display: none
 }
 
+.slider-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.slider-title {
+    position: absolute;
+    left: 7%;
+    top: 30%;
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+}
+
+.slider-content {
+    position: absolute;
+    max-width: 550px;
+    left: 7%;
+    top: 55%;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    text-align: justify!important;
+}
+
 .navbar {
     background-color: transparent;
     padding-top: 15px;
@@ -994,11 +1020,6 @@ button:focus {
     font-size: 24px;
     text-align: center;
     padding-top: 8px;
-    transition: background .3s, color .2s;
-    -webkit-transition: background .3s, color .2s;
-    -moz-transition: background .3s, color .2s;
-    -ms-transition: background .3s, color .2s;
-    -o-transition: background .3s, color .2s;
     cursor: pointer;
     color: #fff;
     box-sizing: border-box;
