@@ -209,6 +209,9 @@
     .container {
         max-width: 720px;
     }
+    #navbar .container, #navbar-sms .container {
+        justify-content: space-between!important;
+    }
     .nav-toggler {
         display: block;
         top: 35px;

@@ -902,7 +902,6 @@ button:focus {
 
 .footer-logo p {
     max-width: 250px;
-    font-family: Montserrat;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300
@@ -919,7 +918,6 @@ button:focus {
 
 .footer-subsection-title {
     font-size: 23px;
-    font-family: Montserrat;
     font-weight: 700;
     color: #fff;
     line-height: 2.2;
@@ -927,7 +925,6 @@ button:focus {
 }
 
 .footer-subsection-text {
-    font-family: Montserrat;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400
@@ -1018,7 +1015,6 @@ button:focus {
     font-size: 16px;
     font-weight: 400;
     color: var(--white-color);
-    font-family: Montserrat;
     line-height: 2;
 }
 
@@ -1588,6 +1584,12 @@ input[type=submit]:hover {
 
 #navbar {
     background: rgba(0, 0, 0, 0.2);
+}
+
+#navbar .container, #navbar-sms .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #navbar-sms {
