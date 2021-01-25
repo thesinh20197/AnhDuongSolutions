@@ -47,7 +47,7 @@
     .learn-more-btn-section {
         justify-content: center;
     }
-    #navbar {
+    #navbar, #navbar-sms {
         background: #2e2e2e;
     }
     .navbar-brand img {
@@ -169,16 +169,23 @@
         left: 6%;
     }
     .slider-content {
+        max-width: 310px;
         font-size: 10px;
         top: 35%;
         left: 6%;
+    }
+    .slider-content-sms {
+        max-width: 251px;
+        font-size: 10px;
+        top: 39%;
+        left: 5%;
     }
 }
 
 @media screen and (max-width:799.98px) {
     .header {
         height: auto;
-        padding-top: 20%
+        padding-top: 17%;
     }
 }
 
@@ -273,6 +280,7 @@
         left: 5%;
     }
     .slider-content {
+        max-width: 150px;
         font-size: 4px;
         top: 30%;
         left: 5%;
@@ -300,9 +308,16 @@
         left: 6%;
     }
     .slider-content {
+        max-width: 420px;
         font-size: 13px;
         top: 21%;
         left: 6%;
+    }
+    .slider-content-sms {
+        max-width: 330px;
+        font-size: 13px;
+        top: 27%;
+        left: 5%;
     }
 }
 
@@ -312,6 +327,12 @@
     .slider-title {
         font-size: 12px;
         top: 21%;
+        left: 5%;
+    }
+    .slider-content-sms {
+        max-width: 125px;
+        font-size: 6px;
+        top: 32%;
         left: 5%;
     }
 }
@@ -332,6 +353,12 @@
         top: 24%;
         left: 8%;
     }
+    .slider-content-sms {
+        max-width: 120px;
+        font-size: 4px;
+        top: 28%;
+        left: 5%;
+    }
 }
 
 /* iphone 6+, 6s+, 7+, 8+ */
@@ -343,8 +370,15 @@
         left: 7%;
     }
     .slider-content {
+        max-width: 165px;
         font-size: 5px;
         top: 27%;
         left: 7%;
+    }
+    .slider-content-sms {
+        max-width: 130px;
+        font-size: 6px;
+        top: 32%;
+        left: 5%;
     }
 }

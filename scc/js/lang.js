@@ -126,6 +126,15 @@ function translate(tnum) {
     $('.title-start').text(trans[59][tnum]);
     $('.title-end').text(trans[60][tnum]);
     $('.slider-content').text(trans[61][tnum]);
+    $('.bn-sms-title').text(trans[62][tnum]);
+    $('.bn-sms-content').text(trans[63][tnum]);
+    $('.services-title-sms').text(trans[64][tnum]);
+    $('.text-bn-sms').text(trans[65][tnum]);
+    $('.pricing-target-ads').text(trans[66][tnum]);
+    $('.pricing-sms-ads').text(trans[67][tnum]);
+    $('.pricing-target-care').text(trans[68][tnum]);
+    $('.pricing-sms-care').text(trans[69][tnum]);
+    $('.slider-content-sms').text(trans[70][tnum]);
 
 
 }
@@ -384,6 +393,43 @@ var trans = [
     {
         ENG: 'We are a pioneer in providing solutions that change the way businesses and outstanding individuals communicate with customers. In current business operations, the need to communicate with a large number of customers is essential for marketing purposes.',
         VN: 'Chúng tôi là công ty tiên phong lĩnh vực cung cấp giải pháp thay đổi cách thức mà doanh nghiệp và cá nhân kiệt xuất giao tiếp với khách hàng. Trong các hoạt động kinh doanh hiện tại, nhu cầu về giao tiếp với một lượng lớn các khách hàng là cực kì cần thiết nhằm các mục đích tiếp thị.',
+    },
+    {
+        ENG: 'PRICE LIST OF SMS BRANDNAME SERVICE',
+        VN: 'BẢNG GIÁ DỊCH VỤ SMS BRANDNAME',
+    },
+    {
+        ENG: 'is a mass messaging service that allows businesses to send marketing and customer care messages up to 160 characters in length to multiple mobile subscribers. The brand name appears in the sender field instead of the specific phone number.',
+        VN: 'là một dịch vụ gửi tin nhắn hàng loạt cho phép các doanh nghiệp gửi tin nhắn tiếp thị và chăm sóc khách hàng có độ dài tối đa 160 ký tự đến nhiều thuê bao di động. Tên thương hiệu sẽ hiển thị ở mục người gửi thay vì số điện thoại cụ thể.',
+    },
+    {
+        ENG: 'What is SMS Brandname ?',
+        VN: 'SMS Brandname là gì ?',
+    },
+    {
+        ENG: 'is a brand message sent to customers for the purpose of advertising or customer care. The special thing about this brand message (SMS BrandName) is that in the headline will have your brand name instead of numbers.',
+        VN: 'là tin nhắn thương hiệu được gửi đến khách hàng với mục đích quảng cáo hoặc chăm sóc khách hàng. Điều đặc biệt ở tin nhắn thương hiệu ( SMS BrandName ) này đó là ở phần tiêu đề sẽ có tên thương hiệu của bạn thay vì những con số.',
+    },
+    {
+        ENG: 'SMS Brandname - Advertising',
+        VN: 'SMS Brandname - Quảng cáo',
+    },
+    {
+        ENG: 'Reasonable choice for product advertising messages',
+        VN: 'Lựa chọn hợp lý cho tin nhắn quảng cáo sản phẩm',
+    }, {
+        ENG: 'SMS Brandname - Customer Care',
+        VN: 'SMS Brandname - CSKH',
+    }, {
+        ENG: 'Reasonable choice for customer care messages',
+        VN: 'Lựa chọn hợp lý cho tin nhắn chăm sóc khách hàng',
+    },
+    {
+        ENG: 'It is a one-way messaging system (SMS Marketing), using a prepaid account, with the sender being the brand name (Brandname).',
+        VN: 'Là hệ thống gửi tin một chiều (SMS Marketing), sử dụng tài khoản trả trước, với người gửi là tên thương hiệu (Brandname).',
     }
+
+
+
 
 ];
